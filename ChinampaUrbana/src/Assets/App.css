@@ -1,0 +1,9 @@
+.container-padre-app {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+  border: solid 2px greenyellow;
+  padding: 10px;
+  background-color: #141B4D; }
