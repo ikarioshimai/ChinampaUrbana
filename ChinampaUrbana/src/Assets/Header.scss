@@ -1,28 +1,50 @@
 .MainContHeader{
     display:flex;
     width: 100%;
-    height: 50px;
-    background-color: red;
-}
+    height: 100px;
+    background-color:rgb(229, 160, 160);
 
-.box1{
+}
+.barNav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.box{
     display: flex;
     margin: 10px;
+    margin-right: 20px;
+    color: whitesmoke;
     width: 10%;
-    height: 40px;
-    background-color: black;
+    height: 20px;
+
+    
 }
-.box2{
-     margin: 10px;
-     display: flex;
-     width: 10%;
-     height: 40px;
-     background-color:blue;
- }
- .box3{
-     margin: 10px;
-     display: flex;
-     width: 10%;
-     height: 40px;
-     background-color:black;
- }
+.barNav li :hover {
+    color: whitesmoke;
+    text-decoration: underline;
+    transition: all 0.5s; }
+//.box2{
+ //    margin: 10px;
+  //   display: flex;
+   //  width: 10%;
+    // height: 40px;
+     //background-color:rgb(54, 255, 47);
+ //}
+ //.box3{
+  //   margin: 10px;
+   //  display: flex;
+    // width: 10%;
+     //height: 40px;
+     //background-color:rgb(54, 255, 47);
+ //}
+
+ //.box4{
+   // margin: 10px;
+   // display: flex;
+    //width: 10%;
+    //height: 40px;
+    //background-color:rgb(54, 255, 47);
+//}

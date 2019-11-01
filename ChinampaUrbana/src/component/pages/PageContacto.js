@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-
+import Header from './../layout/Header';
+import TemplateContacto from './../Templates/TemplateContacto';
 
 class Contacto extends Component {
   render() {
       return (
           <div className="ContactoCont">
-<p>
-  Facebook.com/ChinampaUrbana
-  telefono 2183000
-  hidroponiapuebla
-  
-</p>
-
+<Header/>
+<TemplateContacto/>
 
           </div>
       );

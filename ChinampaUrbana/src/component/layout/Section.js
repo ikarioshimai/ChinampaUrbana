@@ -9,9 +9,9 @@ class Section extends Component {
 
 
              <div className="ChinampaUrbana">
-              <img className="ChinampaUrbana" src={ChinampaUrbana} width="1300" height="600">
+              <img className="ChinampaUrbana" src={ChinampaUrbana} width="1300" height="600"/>
 
-              </img>        
+                      
 
              </div>
             </div>
